@@ -62,6 +62,13 @@ p {
     border-color: aqua;
     background-color:#7057a0;
     margin-bottom: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin-top:10px;
+    margin-left: 50px ;
+    margin-right: 10px;
+
     
 }
 footer {

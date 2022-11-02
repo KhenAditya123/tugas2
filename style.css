@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background: url("https://wallpaperaccess.com/full/31367.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    color: rgb(230, 138, 248);
+    text-align: center;
+    text-shadow: 10cm;
+    border-style:ridge ;
+    border-color: #a37bee;
+}
+
+.topnav {
+    overflow: auto;
+    background-color: rgb(130, 177, 155);
+}
+
+.topnav a {
+    float: left;
+    color: #11627a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    visibility: visible;
+}
+
+.topnav a:hover {
+    background-color: rgb(198, 235, 64);
+    color: black;
+}
+
+.topnav a.active {
+    
+    background-color: #7057a0;
+    color: white;
+}
+
+.topnav-right {
+    
+    float: right;
+}
+
+nav {
+    
+    padding: 20px;
+
+}
+
+p {
+    font-family: 'Kanit', sans-serif;
+    color: rgb(184, 255, 166);
+    text-align: justify;
+    float: right;
+    border-style: double;
+    border-color: aqua;
+    background-color:#7057a0;
+    margin-bottom: 200px;
+    
+}
+footer {
+    font-family: 'Inconsolata', monospace;
+    color: blanchedalmond;
+    text-align: center;
+    border-style: dashed;
+    border-color: aqua;
+    bottom:0%  ;
+    position: relative;
+    display:block
+
+}
+.grid-container {
+
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.text {
+    margin-top: 50px;
+
+}
+
